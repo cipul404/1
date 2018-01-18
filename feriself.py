@@ -16,7 +16,7 @@ from threading import Thread
 
 
 cl = LINETCR.LINE()
-cl.login(token="EonpZFpS0OxOZmDgOqY2.WCCRkMNgQXINSOQNF/5yiG.EcqziEJmwOdvTJF9ISdQRF9ySGnMYuoaFXd65rBrFWY=")
+cl.login(token="EozKBSnt3gXp3IwLbKa8.lilmrUJlMTaTBNnEzh8ZEa.0wWbJPNM6O4CACz8FrIuvj6SHCVDo2Zg+m340HOuVfg==")
 cl.loginResult()
 
 print "Welcomeback"
@@ -97,7 +97,7 @@ http://line.me/ti/p/~feriantoyp"""
 KAC=[cl]
 mid = cl.getProfile().mid
 Bots=[mid]
-admin=["uc1c72b2a69c6ab18a7b28aa77fee5822","uc2ed5d897a68fe999a828e596a38c5fc","ue9f784b86cc88eb10a50817b6a328e61","ub2289daa16ffa70729d81c728bd8e4f0","u659d36159ba11a1993e37c9f6e68ae52","u229bc12e4f0e78540816e88827f554ec"]
+admin=["u2c82cc46e8cb9ad02d6e735e647f3378"]
 wait = {
     'contact':False,
     'autoJoin':True,
@@ -1490,7 +1490,7 @@ def bot(op):
             elif 'Crash' in msg.text:
               if msg.from_ in admin:
                 msg.contentType = 13
-                msg.contentMetadata = {'mid': "uc1c72b2a69c6ab18a7b28aa77fee5822,'"}
+                msg.contentMetadata = {'mid': "i i uc1c72b2a69c6ab18a7b28aa77fee582,'"}
                 cl.sendMessage(msg)
 #-------------------------------------------------------  
             elif ("Boom " in msg.text):
@@ -1685,7 +1685,7 @@ def bot(op):
             elif msg.text in ["Creator"]:
                 if msg.toType == 2:
                       msg.contentType = 13
-                      Creatorbot = "uc1c72b2a69c6ab18a7b28aa77fee5822"
+                      Creatorbot = "u2c82cc46e8cb9ad02d6e735e647f3378	"
                       try:
                           msg.contentMetadata = {'mid': Creatorbot}
                         
@@ -1708,7 +1708,8 @@ def bot(op):
                   cl.sendText(manusia, (bctxt))
 			
             elif "Cbc " in msg.text:
-	      if msg.from_ in admin:
+	      if msg.from_ in 
+		:
                bctxt = msg.text.replace("Cbc ", "")
                t = cl.getAllContactIds()
                for manusia in t:
