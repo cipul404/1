@@ -1107,12 +1107,12 @@ def bot(op):
                 wait["spam"] = msg.text.replace("Spam add: ","")
                 if wait["lang"] == "JP":
                     cl.sendText(msg.to,"spam changed")
-                else:
-                    cl.sendText(msg.to,"Done")
+            #    else:
+#                    cl.sendText(msg.to,"Done")
 
-            elif "Spam: " in msg.text:
-	      if msg.from_ in admin:
-                strnum = msg.text.replace("Spam: ","")
+            #elif "Spam: " in msg.text:
+	     # if msg.from_ in admin:
+                #strnum = msg.text.replace("Spam: ","")
                 num = int(strnum)
                 for var in range(0,num):
                     cl.sendText(msg.to, wait["spam"])
