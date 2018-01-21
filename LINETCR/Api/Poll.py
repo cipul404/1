@@ -17,9 +17,9 @@ class Poll:
   polling_path = "/P4";
   host = "gd2.line.naver.jp";
   port = 443;
-
+ 
   UA = "Line/8.0.0"
-  LA = "CHROMEOS	2.0.0	Chrome_OS	1"
+  LA = "CHROMEOS\t1.8.0.0\tChrome_OS\t1"
 
   rev = 0
 
